@@ -1,5 +1,5 @@
-# utils/ss
-Docker imae with iproute2 Another human-readable utility of another utility (ss) to investigate sockets
+# utils/ip
+Docker imae with iproute2 ip info tools
 
 ## Usage
-`docker run -ti --rm --net=host utils/ss -lntu`
+`docker run -ti --rm --net=host utils/ip addr`
