@@ -1,5 +1,5 @@
 FROM alpine
 
-RUN apk add --no-cahce iproute2
+RUN apk add --no-cache iproute2
 
 CMD ["ss"]
